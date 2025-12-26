@@ -1,31 +1,31 @@
 #!/bin/bash
 
-echo "🚀 Portfolio Quick Setup Script"
+echo "Portfolio Quick Setup Script"
 echo "================================"
 echo ""
 
 # Check if Node.js is installed
 if ! command -v node &> /dev/null; then
-    echo "❌ Node.js is not installed. Please install it from https://nodejs.org/"
+    echo "Node.js is not installed. Please install it from https://nodejs.org/"
     exit 1
 fi
 
-echo "✅ Node.js detected: $(node --version)"
+echo "Node.js detected: $(node --version)"
 echo ""
 
 # Install dependencies
-echo "📦 Installing dependencies..."
+echo "Installing dependencies..."
 npm install
 
 if [ $? -eq 0 ]; then
-    echo "✅ Dependencies installed successfully!"
+    echo "Dependencies installed successfully!"
 else
-    echo "❌ Failed to install dependencies"
+    echo "Failed to install dependencies"
     exit 1
 fi
 
 echo ""
-echo "🎨 Your portfolio is ready!"
+echo "Your portfolio is ready!"
 echo ""
 echo "Next steps:"
 echo "1. Edit src/data/projects.ts - Add your projects"
