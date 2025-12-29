@@ -3,7 +3,7 @@ import Section from "../components/Section";
 import ProjectCard from "../components/ProjectCard";
 import SkillCard from "../components/SkillCard";
 import SolanaArchitecture from "../components/SolanaArchitecture";
-import ResumeSection from "../components/ResumeSection";
+// import ResumeSection from "../components/ResumeSection";
 import { projects } from "../data/projects";
 import { skills } from "../data/skills";
 
